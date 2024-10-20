@@ -1,0 +1,23 @@
+.eyes-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 93px;
+}
+.eyes-header {
+}
+
+.eyes-image {
+}
+.eyes-text {
+  max-width: 570px;
+  margin-bottom: min(5.3vw, 63px);
+}
+
+.eyes-email {
+  color: #000;
+  font-size: clamp(30px, 4.5vw, 54px);
+  font-weight: 400;
+  text-decoration-line: underline;
+}

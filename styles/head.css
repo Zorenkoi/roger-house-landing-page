@@ -1,0 +1,24 @@
+.head-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.head-text {
+  max-width: 700px;
+}
+.mintext {
+}
+.head-header {
+}
+.head-header span {
+  color: var(--light-text);
+}
+.header1 {
+}
+.head-image {
+  min-height: 350px;
+  object-fit: cover;
+  background-color: red;
+}

@@ -1,0 +1,26 @@
+.hello-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 11px;
+}
+.hello-header {
+  margin-bottom: 60px;
+}
+.hello-text {
+  margin-bottom: 20px;
+}
+
+.hello-button {
+  align-self: flex-end;
+}
+
+@media (max-width: 650px) {
+  .hello-text {
+    margin-bottom: 30px;
+  }
+  .hello-button {
+    align-self: unset;
+  }
+}

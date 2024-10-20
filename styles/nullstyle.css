@@ -1,0 +1,78 @@
+/* Nullstyle for CSS */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 100%; /* Ensures 16px font-size */
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased; /* Improves font rendering in WebKit-based browsers */
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Inherits font settings */
+}
+
+ul,
+ol {
+  list-style: none; /* Removes list bullets */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherits color from parent element */
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}

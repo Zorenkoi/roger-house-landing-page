@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 43px;
+}
+.nav-logo {
+  width: 84px;
+  height: 49px;
+}
+.nav-button {
+  width: 73px;
+  aspect-ratio: calc(73 / 60);
+  padding: 0px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.nav-button::before,
+.nav-button::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: black;
+}
+
+@media (max-width: 500px) {
+  .nav-button {
+    width: 50px;
+  }
+}
